@@ -1,0 +1,17 @@
+JDBC STEPS:
+
+1. Load & Register Driver (this step is not required from Java 1.8 onwards)
+    -> Class.forName("com.mysql.cj.jdbc.Driver");
+
+2. Establish Connection between JDBC application and Database
+    -> Connection con = DriverManager.getConnection(url, user, pwd);
+    -> where url = "jdbc:mysql://localhost:3306/durgadb"
+    -> where user = "root"
+    -> where pwd = "rootroot"
+
+3. Create Statement Object
+    -> Statement stmt = con.createStatement();
+
+4. Write and execute MySQL query using executeQuery(), executeUpdate() or execute()
+
+5. Close resources in finally block (this is not required when using try-with resource)
