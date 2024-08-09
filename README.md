@@ -14,6 +14,6 @@ JDBC is the Base for Java Database Programming. In this tutorials you will get s
 9. JDBC Programs with Properties File
 10. JDBC programs with Transaction Management & Savepoint
 11. JDBC Programs for MetaData
-12. JDBC Programs with Exccel Sheets
+12. JDBC Programs with Excel Sheets
 13. JDBC Programs with ResultSet Types
 14. JDBC Programs with RowSet Types
