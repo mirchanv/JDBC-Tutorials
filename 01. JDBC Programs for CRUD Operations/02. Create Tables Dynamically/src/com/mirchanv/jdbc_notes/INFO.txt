@@ -1,0 +1,23 @@
+TASK:
+---------------------------------------------------------------------------------------
+We need to be abe to dynamically create database tables from our java
+application. To do this we need to read dynamic input from the user using
+resources like BufferedReader or Scanner, in order to get:
+    - table name
+    - column names
+    - column type
+    - column size
+    - if column is primary key
+
+We need a loop to keep asking the user these details until they do not want
+to add another column anymore.
+
+Example SQL Query construction should be in the following format:
+---------------------------------------------------------------------------------------
+"CREATE TABLE tableName(columnName dataType(size), columnName dataType(size), ...
+primary key(columnName, columnName, ...))"
+
+FOR EXAMPLE:
+---------------------------------------------------------------------------------------
+"CREATE TABLE emp1(ENO int(5), ENAME char(10), ESAL float(5), EADDR char(10),
+primary key(ENO, ENAME))"
