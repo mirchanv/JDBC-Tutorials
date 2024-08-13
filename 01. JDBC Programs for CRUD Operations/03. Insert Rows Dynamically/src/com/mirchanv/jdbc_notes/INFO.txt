@@ -1,0 +1,21 @@
+TASK:
+---------------------------------------------------------------------------------------
+We need to be able to dynamically insert rows into the emp1 table which already exists.
+To do this we need to read dynamic input from the user using resources like BufferedReader
+or Scanner, in order to get all emp1 column data:
+    - ENO
+    - ENAME
+    - ESAL
+    - EADDR
+
+We need a loop to keep asking the user if they want to keep inserting another employee record until
+they wish not to add anymore records/rows.
+
+Example SQL Query construction should be in the following format:
+---------------------------------------------------------------------------------------
+*** emp1 table has the following 4 columns : ENO, ENAME, ESAL, EADDR
+insert into emp1 values(Column1_Value, Column2_Value, Column3_Value, Column4_Value);
+
+FOR EXAMPLE:
+---------------------------------------------------------------------------------------
+insert into emp1 values(111, "Vishal", 50000, "Bangalore");
