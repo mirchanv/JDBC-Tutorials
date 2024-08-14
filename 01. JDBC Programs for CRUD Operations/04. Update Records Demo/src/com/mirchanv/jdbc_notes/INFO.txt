@@ -1,5 +1,5 @@
 TASK:
----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 We want to give yearly bonuses to employees that fall under the specified salary range.
 We need to be abe to update salaries on the emp1 table on the basis of
     - bonus amount [the amount to add to existing salary]
@@ -13,6 +13,5 @@ application to the database. Once the database engine executes the query it will
 an integer value representing the number of rows/employees updated.
 
 Example SQL Query construction should be in the following format:
----------------------------------------------------------------------------------------
-"UPDATE emp1 SET emp_salary = emp_salary + " + bonusAmount + " WHERE emp_salary >= "
-                                + minSalary + " AND emp_salary <= " + maxSalary;
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"UPDATE emp1 SET emp_salary = emp_salary + " + bonusAmount + " WHERE emp_salary >= " + minSalary + " AND emp_salary <= " + maxSalary;
