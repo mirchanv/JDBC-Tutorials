@@ -1,0 +1,13 @@
+TASK:
+-------------------------------------------------------------------------------------
+We want to be able to delete all employee records from the emp1 table given a salary.
+Meaning once the user inputs a salary. Then our jdbc application should be able to
+construct a sql query that delete all employees whose salaries are < salary(user-input)
+
+We need to send the sql query from our jdbc application to the database.
+Once the database engine executes the query it will return
+an integer value representing the number of rows/employees deleted.
+
+Example SQL Query construction should be in the following format:
+-------------------------------------------------------------------------------------
+"DELETE from emp1 WHERE emp_salary < salaryUserInput"
