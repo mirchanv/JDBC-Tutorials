@@ -1,6 +1,5 @@
 package com.mirchanv.jdbc_crud;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.sql.Connection;
