@@ -1,0 +1,17 @@
+TASK:
+-------------------------------------------------------------------------------------
+We want to write up a jdbc application where we read in a tableName provided by the
+user. Once we have successfully read the tableName we simply want to drop(delete)
+the table from the database.
+
+Example SQL Query construction should be in the following format:
+-------------------------------------------------------------------------------------
+"drop table " + tableName;
+
+FOR EXAMPLE:
+-------------------------------------------------------------------------------------
+"drop table emp1";
+"drop table Accounts";
+"drop table Transactions";
+
+NOTE: where emp1, Accounts, Transactions are tableNames entered by the user
