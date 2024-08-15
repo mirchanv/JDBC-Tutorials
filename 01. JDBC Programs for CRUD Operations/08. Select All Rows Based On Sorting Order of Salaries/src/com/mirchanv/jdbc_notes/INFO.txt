@@ -1,0 +1,26 @@
+TASK:
+-------------------------------------------------------------------------------------
+We want to write up a jdbc application where we can get all the records from emp1
+table and display it on the console based on their salaries either in ascending
+or descending order.
+
+The order(ASC or DESC) should be decided by the user, hence we must read their input
+in some way for us to construct the final sq query.
+
+When the jdbc application send the sql query to the database engine, it will
+execute the query and return back an object in the form of ResultSet.
+
+We have to use this ResultSet object in order to get all entries, and for every
+entry we also need extract each column data.
+
+Example SQL Query construction should be in the following format:
+-------------------------------------------------------------------------------------
+"select * from tableName order by columnName ASC"
+"select * from tableName order by columnName DESC"
+
+FOR EXAMPLE
+-------------------------------------------------------------------------------------
+If user entered ASC then sql query is : "select * from emp1 order by emp_salary ASC"
+If user entered DESC then sql query is : "select * from emp1 order by emp_salary DESC"
+
+* This is assuming the column we want to order by is emp_salary
