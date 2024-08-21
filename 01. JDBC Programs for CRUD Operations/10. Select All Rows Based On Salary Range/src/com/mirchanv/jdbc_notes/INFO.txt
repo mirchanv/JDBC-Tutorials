@@ -1,0 +1,18 @@
+TASK:
+-------------------------------------------------------------------------------------
+We want to write up a jdbc application where we can get all the records from emp1
+table based on a salary range provided by the user.
+
+When the jdbc application send the sql query to the database engine, it will
+execute the query and return back an object in the form of ResultSet.
+
+We have to use this ResultSet object in order to get all entries, and for every
+entry we also need extract each column data.
+
+Example SQL Query construction should be in the following format:
+-------------------------------------------------------------------------------------
+"select * from tableName where salaryColumnName >= beginSal and salaryColumnName <= endSal"
+
+FOR EXAMPLE
+-------------------------------------------------------------------------------------
+"select * from emp1 where emp_salary >= 50000 and emp_salary <= 100000"
