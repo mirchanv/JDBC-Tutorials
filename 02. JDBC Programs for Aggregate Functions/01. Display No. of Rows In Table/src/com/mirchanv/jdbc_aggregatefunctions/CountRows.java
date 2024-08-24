@@ -1,7 +1,5 @@
 package com.mirchanv.jdbc_aggregatefunctions;
 
-import com.mysql.cj.protocol.Resultset;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.sql.Connection;
