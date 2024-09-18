@@ -1,4 +1,4 @@
-# JDBC-Tutorials
+# JDBC_Tutorials
 
 
 JDBC is the Base for Java Database Programming. In this tutorials you will get strong base about Java database concepts. You will find a good number of tutorials in this repository on the following:
