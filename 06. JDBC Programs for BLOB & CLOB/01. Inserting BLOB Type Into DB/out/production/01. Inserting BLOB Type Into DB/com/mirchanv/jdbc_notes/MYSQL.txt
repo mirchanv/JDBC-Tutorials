@@ -1,9 +1,0 @@
-// To create MySQL table with BLOB data type please execute the following:
-
-create table emp2 (
-    ID int(5) PRIMARY KEY,
-    NAME char(15),
-    SALARY float,
-    ADDRESS char(15),
-    IMAGE blob);
-COMMIT;
