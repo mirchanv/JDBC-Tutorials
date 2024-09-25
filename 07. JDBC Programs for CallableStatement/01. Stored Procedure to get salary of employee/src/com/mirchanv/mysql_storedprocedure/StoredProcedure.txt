@@ -1,0 +1,6 @@
+delimiter //
+create procedure getEmpSalary(IN empId int, OUT empSal float)
+BEGIN
+    select emp_salary into empSal from emp1 where emp_id = empId;
+END //
+commit;
